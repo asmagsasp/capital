@@ -10,7 +10,7 @@ export function Footer() {
               <TrendingUp className="h-4 w-4 text-primary-foreground" />
             </div>
             <span className="text-base font-bold text-foreground">
-              Apex Capital
+              Investimentos
             </span>
           </div>
 
@@ -39,7 +39,7 @@ export function Footer() {
 
         <div className="mt-8 border-t border-border pt-8">
           <p className="text-center text-xs leading-relaxed text-muted-foreground">
-            {"Apex Capital - Todos os direitos reservados. Este site nao constitui aconselhamento financeiro. Investimentos de alto risco podem resultar em perda total do capital. Resultados passados nao garantem retornos futuros. Consulte um profissional financeiro qualificado antes de investir."}
+            {"Investimentos - Todos os direitos reservados. Este site nao constitui aconselhamento financeiro. Investimentos de alto risco podem resultar em perda total do capital. Resultados passados nao garantem retornos futuros. Consulte um profissional financeiro qualificado antes de investir."}
           </p>
         </div>
       </div>
