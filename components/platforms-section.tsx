@@ -8,6 +8,7 @@ import {
 } from "lucide-react"
 
 import { Button } from "@/components/ui/button"
+import { url } from "inspector"
 
 const platforms = [
   {
@@ -17,6 +18,7 @@ const platforms = [
     icon: Globe,
     returnRange: "Retorno de 110% de lucro com taxa de administração de saque de 10%",
     risk: "Altissimo",
+    url:"https://vo2opak3.com/register?ref=VC10GPGV",
   },
   {
     name: "Red Bull Racing",
@@ -25,6 +27,7 @@ const platforms = [
     icon: Coins,
     returnRange: "Retorno de 150% de lucro com taxa de administração de saque de 5%",
     risk: "Altissimo",
+    url:"https://rb-bull444.com/auth/register.php?ref=RLD5WGH0",
   },
   {
     name: "Veloce",
@@ -33,6 +36,7 @@ const platforms = [
     icon: BarChart3,
     returnRange: "ROI 608%",
     risk: "Altissimo",
+    url:"https://veloce.capital/register?ref=IDEMO"
   },
   {
     name: "Origem IA",
@@ -41,6 +45,7 @@ const platforms = [
     icon: LineChart,
     returnRange: "Retorno de 33% com taxa de administração de 10%",
     risk: "Altíssimo",
+    url:"https://www.origemias.com/register.html?code=584157"
   },
   {
     name: "Atlas Energy",
@@ -49,6 +54,7 @@ const platforms = [
     icon: Layers,
     returnRange: "Retorno de 110% com taxa de administração de saque 10% ",
     risk: "Altissimo",
+    url:"https://atlasenergy.site/register?sponsor=asmag"
   },
 ]
 
@@ -104,12 +110,22 @@ export function PlatformsSection() {
                       {platform.returnRange}
                     </span>
                   </div>
+
                   <div className="rounded-md bg-destructive/10 px-2 py-1">
                     <span className="text-xs font-semibold text-destructive">
                       {platform.risk}
                     </span>
                   </div>
+
                 </div>
+                <br>
+                </br>
+                <div className="rounded-md bg-destructive/10 px-2 py-1">
+                    <span className="text-xs font-semibold text-primary">
+                       {platform.url}
+                    </span>
+                </div>
+                
               </div>
             )
           })}
