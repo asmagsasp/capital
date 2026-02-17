@@ -48,9 +48,9 @@ export function HeroSection() {
         {/* Stats row */}
         <div className="mt-20 grid grid-cols-2 gap-8 md:grid-cols-4">
           {[
-            { value: "5+", label: "Plataformas" },
-            { value: "30%+", label: "Retorno Potencial" },
-            { value: "7-30", label: "Dias de Ciclo" },
+            { value: "4+", label: "Plataformas" },
+            { value: "110%+", label: "Retorno Potencial" },
+            { value: "2-60", label: "Dias de Ciclo" },
             { value: "24/7", label: "Suporte" },
           ].map((stat) => (
             <div key={stat.label} className="flex flex-col items-center">
