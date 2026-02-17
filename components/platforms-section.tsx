@@ -18,7 +18,7 @@ const platforms = [
     icon: Globe,
     returnRange: "Retorno de 110% de lucro com taxa de administração de saque de 10%",
     risk: "Altissimo",
-    url:"https://vo2opak3.com/register?ref=VC10GPGV",
+    url:"https://vo2opak3.com/register?ref=VC10GPGV"
   },
   {
     name: "Red Bull Racing",
@@ -120,10 +120,10 @@ export function PlatformsSection() {
                 </div>
                 <br>
                 </br>
-                <div className="rounded-md bg-destructive/10 px-2 py-1">
-                    <span className="text-xs font-semibold text-primary">
-                       {platform.url}
-                    </span>
+                <div className="hidden md:block">
+                  <Button asChild>
+                    <a href={platform.url}>Cadastre aqui</a>
+                  </Button>
                 </div>
                 
               </div>
