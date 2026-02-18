@@ -120,7 +120,7 @@ export function PlatformsSection() {
                 </div>
                 <br>
                 </br>
-                <div className="hidden md:block">
+                <div className="md:block">
                   <Button asChild>
                     <a href={platform.url}>Cadastre aqui</a>
                   </Button>
