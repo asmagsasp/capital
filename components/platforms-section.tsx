@@ -12,13 +12,13 @@ import { url } from "inspector"
 
 const platforms = [
   {
-    name: "Vopak",
+    name: "9Layer",
     description:
-      "Invista 80 reais e tenha um retorno de 168 reais ao final de 30 dias",
+      "Invista 50 reais e tenha um retorno de 105 reais ao final de 15 dias",
     icon: Globe,
     returnRange: "Retorno de 110% de lucro com taxa de administração de saque de 10%",
     risk: "Altissimo",
-    url:"https://vo2opak3.com/register?ref=VC10GPGV"
+    url:"https://multi-9layer.capital/register?ref=L9-ASSCY0"
   },
   {
     name: "Red Bull Racing",
@@ -30,13 +30,13 @@ const platforms = [
     url:"https://rb-bull444.com/auth/register.php?ref=RLD5WGH0",
   },
   {
-    name: "Veloce",
+    name: "Brindaroli",
     description:
-      "Invista 80 reais e tenha um retorno de 1520 reais no final de 60 dias",
+      "Invista 10 reais e tenha um retorno de 20,01 reais no final de 30 dias",
     icon: BarChart3,
-    returnRange: "ROI 608%",
+    returnRange: "Retorno de 100% de lucro com taxa de administração de saque de 10%",
     risk: "Altissimo",
-    url:"https://veloce.capital/register?ref=IDEMO"
+    url:"https://sistema.brindarolli.com.br/register?ref=9T35HJJO"
   },
   {
     name: "Origem IA",
