@@ -17,7 +17,7 @@ const platforms = [
       "Invista 50 reais e tenha um retorno de 105 reais ao final de 15 dias",
     icon: Globe,
     returnRange: "Retorno de 110% de lucro com taxa de administração de saque de 10%",
-    risk: "Altissimo",
+    risk: "Médio Prazo",
     url: "https://multi-9layer.capital/register?ref=L9-ASSCY0"
   },
   {
@@ -44,7 +44,7 @@ const platforms = [
       "Invista 45 reais e tenha um retorno de 60 reais ao final de 2 dias.",
     icon: LineChart,
     returnRange: "Retorno de 33% com taxa de administração de 10%",
-    risk: "Altíssimo",
+    risk: "Médio Prazo",
     url: "https://www.origemias.com/register.html?code=584157"
   },
   {
@@ -53,7 +53,7 @@ const platforms = [
       "Invista 10 dolares e tenha um retorno de 1,50 dolares por dia. Ciclo de 34 dias",
     icon: Layers,
     returnRange: "Retorno de 103% com taxa de administração de saque 10% ",
-    risk: "Altissimo",
+    risk: "Curto Prazo",
     url: "https://sln365.online/pages/person/register?code=513gc7v484"
   }
 ]
