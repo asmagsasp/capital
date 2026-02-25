@@ -18,25 +18,25 @@ const platforms = [
     icon: Globe,
     returnRange: "Retorno de 110% de lucro com taxa de administração de saque de 10%",
     risk: "Altissimo",
-    url:"https://multi-9layer.capital/register?ref=L9-ASSCY0"
+    url: "https://multi-9layer.capital/register?ref=L9-ASSCY0"
   },
   {
-    name: "Red Bull Racing",
+    name: "A-Sabesp",
     description:
-      "Invista 65 reais e tenha um retorno de 162,50 ao final de 50 dias",
+      "Invista 50 reais e tenha um retorno de 600 reais ao final de 120 dias",
     icon: Coins,
-    returnRange: "Retorno de 150% de lucro com taxa de administração de saque de 5%",
-    risk: "Altissimo",
-    url:"https://rb-bull444.com/auth/register.php?ref=RLD5WGH0",
+    returnRange: "Retorno de 1100% de lucro com taxa de administração de saque de 10%. Saque todos os dias",
+    risk: "Curto Prazo",
+    url: "https://slas.zklllajania67.biz/index/user/register/invite_code/xtehs.html",
   },
   {
     name: "Brindaroli",
     description:
-      "Invista 10 reais e tenha um retorno de 20,01 reais no final de 30 dias",
+      "Invista 10 reais e tenha um retorno de 20,01 reais no final de 30 dias. Saques a cada 10 dias",
     icon: BarChart3,
     returnRange: "Retorno de 100% de lucro com taxa de administração de saque de 10%",
-    risk: "Altissimo",
-    url:"https://sistema.brindarolli.com.br/register?ref=9T35HJJO"
+    risk: "Médio a longo prazo",
+    url: "https://sistema.brindarolli.com.br/register?ref=9T35HJJO"
   },
   {
     name: "Origem IA",
@@ -45,17 +45,17 @@ const platforms = [
     icon: LineChart,
     returnRange: "Retorno de 33% com taxa de administração de 10%",
     risk: "Altíssimo",
-    url:"https://www.origemias.com/register.html?code=584157"
+    url: "https://www.origemias.com/register.html?code=584157"
   },
   {
-    name: "Atlas Energy",
+    name: "Solana Labs",
     description:
-      "Invista 80 reais e tenha um retorno de 168 reais no final de 30 dias.",
+      "Invista 10 dolares e tenha um retorno de 1,50 dolares por dia. Ciclo de 34 dias",
     icon: Layers,
-    returnRange: "Retorno de 110% com taxa de administração de saque 10% ",
+    returnRange: "Retorno de 103% com taxa de administração de saque 10% ",
     risk: "Altissimo",
-    url:"https://atlasenergy.site/register?sponsor=asmag"
-  },
+    url: "https://sln365.online/pages/person/register?code=513gc7v484"
+  }
 ]
 
 export function PlatformsSection() {
@@ -77,12 +77,12 @@ export function PlatformsSection() {
             oportunidades de ganho.
           </p>
           <br></br>
-        <div className="hidden md:block">
-          <Button asChild>
-            <a href="https://wa.me/5519988671478?text=Olá%20gostaria%20de%20mais%20informações">Chame no WhatsApp</a>
-          </Button>
-        </div>
-          
+          <div className="hidden md:block">
+            <Button asChild>
+              <a href="https://wa.me/5519988671478?text=Olá%20gostaria%20de%20mais%20informações">Chame no WhatsApp</a>
+            </Button>
+          </div>
+
         </div>
 
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
@@ -125,7 +125,7 @@ export function PlatformsSection() {
                     <a href={platform.url}>Cadastre aqui</a>
                   </Button>
                 </div>
-                
+
               </div>
             )
           })}
